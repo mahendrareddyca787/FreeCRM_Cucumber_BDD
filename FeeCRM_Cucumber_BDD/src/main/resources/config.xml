@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<Environments xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="config.xsd">
+	<Environment name="Test">
+		<Parameter key="salesforceUrl" value="https://classic.crmpro.com/index.html" />
+		<Parameter key="Admin" value="Admin" />
+		<Parameter key="AdminUsername" value="Mahendrareddy" />
+		<Parameter key="AdminPassword" value="Test@123" />
+	</Environment>
+	<Environment name="SKSFULL1">
+		<Parameter key="salesforceUrl" value="https://skillsoft--sksfull1.sandbox.my.salesforce.com/" />
+		<Parameter key="NotifyList" value="Sarah Motha,Douglas Sawyer,Laura Painter,Saradavani Koppisetty,Matthew Porto" />
+		<Parameter key="Sales" value="Salse rep" />
+		<Parameter key="SalesUserName" value="auto_qa_dba@skillsoft.com.sksfull1" />
+		<Parameter key="SalesUserPassword" value="UEBzc3dvcmQx" />
+		<Parameter key="PricingAnalist" value="Pricing Analist" />
+		<Parameter key="PricingAnalistUser" value="auto_qa_dba@skillsoft.com.sksfull1" />
+		<Parameter key="PricingAnalistPassword" value="UEBzc3dvcmQx" />
+		<Parameter key="Admin" value="Admin" />
+ 		<Parameter key="AdminUsername" value="auto_qa_dba@skillsoft.com.sksfull1" />
+		<Parameter key="SSOAdminUsername" value="auto_qa_dba@skillsoft.com" />
+		<Parameter key="AdminPassword" value="UEBzc3dvcmQx" />
+		<Parameter key="SSOLogin" value="false" />
+		<Parameter key="AdminSSOPassword" value="QXV0b1NxbExvZ2luIQ==" />
+		<Parameter key="AdminSecurityToken" value="Ov1VWwLwdge6cqjCZ6AwYB90n" />
+		<Parameter key="SksFieldSales" value="SksFieldSales" />
+		<Parameter key="SksFieldSalesUserName" value="sksfielduser1@skillsoft.com.sksfull1" />
+		<Parameter key="SksFieldSalesPassword" value="UEBzc3dvcmQx" />
+		<Parameter key="Sandbox" value="sksfull1" />
+		<Parameter key="CongaSettingOrgId" value="MDBEMzAwMDAwMDFGd2pr" />
+		<Parameter key="consumerKey" value="3MVG9nN49A55.GBFnFbi4Vl2fVxgZCWeIj9pHuMuZjgwcombwcLDIdLSoOkVPTVcHzT2S6Xxs6pB73Pcc1dx4" />
+		<Parameter key="consumerSecret" value="8F823E94FE91AE632F286EE7FD0CF06D938A56DE3E0A92295EFD9078C7F4961C" />
+	</Environment>
+	<Environment name="STAGING">
+		<Parameter key="salesforceUrl" value="https://skillsoft--staging.sandbox.my.salesforce.com/" />
+		<Parameter key="NotifyList" value="Eric York,Sarah Motha,Douglas Sawyer,Laura Painter,Megan Hirschfeld,Santosh Tadaka,Katelyn Verrocchio,Toni Mischke,Swarna Singh,Kole Zenni" />
+		<Parameter key="Sales" value="Salse rep" />
+		<Parameter key="SalesUserName" value="auto_qa_dba@skillsoft.com.staging" />
+		<Parameter key="SalesUserPassword" value="UEBzc3dvcmQx" />
+		<Parameter key="PricingAnalist" value="Pricing Analist" />
+		<Parameter key="PricingAnalistUser" value="auto_qa_dba@skillsoft.com.staging" />
+		<Parameter key="PricingAnalistPassword" value="UEBzc3dvcmQx" />
+		<Parameter key="PricerURL" value="http://customappd16.amr.smtf.ds/PricerQuote/pages/login" />
+		<Parameter key="PricerAdmin" value="auto_qa_dba" />
+		<Parameter key="PricerAdminPwd" value="cpqwho" />
+		<Parameter key="Admin" value="Admin" />
+		<Parameter key="AdminUsername" value="auto_qa_dba@skillsoft.com.staging" />
+		<Parameter key="SSOAdminUsername" value="auto_qa_dba@skillsoft.com" />
+		<Parameter key="AdminPassword" value="UEBzc3dvcmQx" />
+		<Parameter key="SSOLogin" value="true" />
+		<Parameter key="AdminSSOPassword" value="QXV0b1NxbExvZ2luIQ==" />
+		<Parameter key="AdminSecurityToken" value="7f6eXzbcjJw89i4sGywRMqOH" />
+		<Parameter key="SksFieldSales" value="SksFieldSales" />
+		<Parameter key="SksFieldSalesUserName" value="sksfielduser1@skillsoft.com.staging" />
+		<Parameter key="SksFieldSalesPassword" value="UEBzc3dvcmQx" />
+		<Parameter key="Sandbox" value="staging" />
+		<Parameter key="CongaSettingOrgId" value="MDBEMzAwMDAwMDFGd2pr" />
+		<Parameter key="consumerKey" value="3MVG9AYugMwGAhY5EFCXk7x8SCX3uVi0BGRX6r5S1RdcwDKptRemYuXiqU2ObFz2hhKKOae79JoIIkkgv7NJQ" />
+		<Parameter key="consumerSecret" value="B2FA6532FD1F9EF48E2ED20DA0A8FDC0C360F5CAE480FE7BE269C399D0B6B732" />
+	</Environment>
+	<Environment name="DEV2">
+		<Parameter key="salesforceUrl" value="https://skillsoft--dev2.sandbox.my.salesforce.com/" />
+		<Parameter key="NotifyList" value="Eric York,Sarah Motha,Douglas Sawyer,Swarna Singh" />
+		<Parameter key="Sales" value="Salse rep" />
+		<Parameter key="SalesUserName" value="auto_qa_dba@skillsoft.com.dev2" />
+		<Parameter key="SalesUserPassword" value="UEBzc3dvcmQx" />
+		<Parameter key="PricingAnalist" value="Pricing Analist" />
+		<Parameter key="PricingAnalistUser" value="auto_qa_dba@skillsoft.com.dev2" />
+		<Parameter key="PricingAnalistPassword" value="UEBzc3dvcmQx" />
+		<Parameter key="Admin" value="Admin" />
+		<Parameter key="AdminUsername" value="auto_qa_dba@skillsoft.com.dev2" />
+		<Parameter key="AdminPassword" value="UEBzc3dvcmQx" />
+		<Parameter key="SksFieldSales" value="SksFieldSales" />
+		<Parameter key="SksFieldSalesUserName" value="sksfielduser1@skillsoft.com.dev2" />
+		<Parameter key="SksFieldSalesPassword" value="UEBzc3dvcmQx" />
+		<Parameter key="SSO_config" value="" />
+		<Parameter key="Sandbox" value="dev2" />
+		<Parameter key="CongaSettingOrgId" value="MDBEMzAwMDAwMDFGd2pr" />
+	</Environment>
+	<Environment name="ONECRMQA">
+		<Parameter key="salesforceUrl" value="https://skillsoft--onecrmqa.sandbox.my.salesforce.com/" />
+		<Parameter key="NotifyList" value="Eric York,Mahendra CA,Raju Baloori,Sarah Motha,Douglas Sawyer,Mike Sheehan,Laura Painter,Krishna Guttula,Saradavani Koppisetty,Vamshidhar Jonnala,Abhishek Raj,Nisha Sharma,Denise O'Riordan,Siobhan Coakley,Cassandra Pressnall" />
+		<Parameter key="Sales" value="Salse rep" />
+		<Parameter key="SalesUserName" value="auto_qa_dba@skillsoft.com.onecrmqa" />
+		<Parameter key="SalesUserPassword" value="UEBzc3dvcmQx" />
+		<Parameter key="PricingAnalist" value="Pricing Analist" />
+		<Parameter key="PricingAnalistUser" value="auto_qa_dba@skillsoft.com.onecrmqa" />
+		<Parameter key="PricingAnalistPassword" value="UEBzc3dvcmQx" />
+		<Parameter key="Admin" value="Admin" />
+		<Parameter key="AdminUsername" value="auto_qa_dba@skillsoft.com.onecrmqa" />
+		<Parameter key="AdminPassword" value="UEBzc3dvcmQx" />
+		<Parameter key="SksFieldSales" value="SksFieldSales" />
+		<Parameter key="SksFieldSalesUserName" value="sksfielduser1@skillsoft.com.onecrmqa" />
+		<Parameter key="SksFieldSalesPassword" value="UEBzc3dvcmQx" />
+		<Parameter key="SSO_config" value="Salesforce Sandbox onecrmqa.xml" />
+		<Parameter key="Sandbox" value="onecrmqa" />
+		<Parameter key="CongaSettingOrgId" value="MDBEMzAwMDAwMDFGd2pr" />
+	</Environment>
+	<Environment name="SKSFULL2">
+		<Parameter key="salesforceUrl" value="https://skillsoft--sksfull2.sandbox.my.salesforce.com/" />
+		<Parameter key="NotifyList" value="Eric York,Mahendra CA,Raju Baloori,Sarah Motha,Douglas Sawyer,Laura Painter,Krishna Guttula,Saradavani Koppisetty,Vamshidhar Jonnala,Swarna Singh,Mike Hyatt,Sagar Arora,Aashish Bansal,Megan Hirschfeld" />
+		<Parameter key="Sales" value="Salse rep" />
+		<Parameter key="SalesUserName" value="auto_qa_dba@skillsoft.com.sksfull2" />
+		<Parameter key="SalesUserPassword" value="UEBzc3dvcmQx" />
+		<Parameter key="PricingAnalist" value="Pricing Analist" />
+		<Parameter key="PricingAnalistUser" value="auto_qa_dba@skillsoft.com.sksfull2" />
+		<Parameter key="PricingAnalistPassword" value="UEBzc3dvcmQx" />
+		<Parameter key="Admin" value="Admin" />
+		<Parameter key="AdminUsername" value="auto_qa_dba@skillsoft.com.sksfull2" />
+		<Parameter key="AdminPassword" value="UEBzc3dvcmQx" />
+		<Parameter key="SSOLogin" value="false" />
+		<Parameter key="SksFieldSales" value="SksFieldSales" />
+		<Parameter key="SksFieldSalesUserName" value="sksfielduser1@skillsoft.com.sksfull2" />
+		<Parameter key="SksFieldSalesPassword" value="UEBzc3dvcmQx" />
+		<Parameter key="AdminSecurityToken" value="yfRFkIdVuVGxXcp9M9ySB4eAU" />
+		<Parameter key="SSO_config" value="Salesforce Sandbox onecrmuat.xml" />
+		<Parameter key="Sandbox" value="sksfull2" />
+		<Parameter key="CongaSettingOrgId" value="MDBEMzAwMDAwMDFGd2pr" />
+		<Parameter key="consumerKey" value="3MVG9qEXqmIutu_RyNaq_lst511d6acGe8VaDw5dcaxtDUAofanXbodIdCOB5lJwQNeRgfgtQYBb1nUDOCpzk" />
+		<Parameter key="consumerSecret" value="A522D2395AAE2EF26E95418FBBBCD321D5F3642CFA83874CE5B57E9BB4D74DEC" />
+	</Environment>
+	<Environment name="SODEV">
+		<Parameter key="salesforceUrl" value="https://skillsoft--sodev.sandbox.my.salesforce.com/" />
+		<Parameter key="NotifyList" value="Eric York,Mahendra CA,Raju Baloori,Sarah Motha,Douglas Sawyer,Mike Sheehan,Laura Painter,Krishna Guttula,Saradavani Koppisetty,Vamshidhar Jonnala" />
+		<Parameter key="Sales" value="Salse rep" />
+		<Parameter key="SalesUserName" value="auto_qa_dba@skillsoft.com.sodev" />
+		<Parameter key="SalesUserPassword" value="UEBzc3dvcmQx" />
+		<Parameter key="PricingAnalist" value="Pricing Analist" />
+		<Parameter key="PricingAnalistUser" value="auto_qa_dba@skillsoft.com.sodev" />
+		<Parameter key="PricingAnalistPassword" value="UEBzc3dvcmQx" />
+		<Parameter key="Admin" value="Admin" />
+		<Parameter key="AdminUsername" value="auto_qa_dba@skillsoft.com.sodev" />
+		<Parameter key="AdminPassword" value="UEBzc3dvcmQx" />
+		<Parameter key="SksFieldSales" value="SksFieldSales" />
+		<Parameter key="SksFieldSalesUserName" value="sksfielduser1@skillsoft.com.sodev" />
+		<Parameter key="SksFieldSalesPassword" value="UEBzc3dvcmQx" />
+		<Parameter key="Sandbox" value="sodev" />
+		<Parameter key="CongaSettingOrgId" value="MDBEMzAwMDAwMDFGd2pr" />
+	</Environment>
+</Environments>
