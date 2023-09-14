@@ -5,7 +5,7 @@ formatter.feature({
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@tag"
+      "name": "@logintestcases"
     }
   ]
 });
@@ -15,7 +15,10 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@tag"
+      "name": "@logintestcases"
+    },
+    {
+      "name": "@loginbutton"
     }
   ]
 });

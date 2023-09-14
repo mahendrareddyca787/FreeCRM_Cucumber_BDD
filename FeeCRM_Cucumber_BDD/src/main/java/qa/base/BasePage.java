@@ -842,7 +842,7 @@ public class BasePage {
 		printLog("Opens the supplied URL");
 	}
 
-	public void navigateToSalesforceURL() throws InterruptedException {
+	public void navigateToCRMURL() throws InterruptedException {
 		try {
 			printLog("AutomationConstants.sandbox :" + FrameworkConstants.sandbox);
 			driver.get(getURL());

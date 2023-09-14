@@ -1,0 +1,5 @@
+09-14-2023 12:13:05 BasePage.java INFO  [main] BasePage 1104 - PASS : AutomationConstants.sandbox :Test
+09-14-2023 12:13:18 BasePage.java INFO  [main] BasePage 1104 - PASS : Launch the URL : https://classic.crmpro.com/index.html
+09-14-2023 12:13:19 BasePage.java INFO  [main] BasePage 1104 - PASS : Entered text as : Mahendrareddy  for Username
+09-14-2023 12:13:19 BasePage.java INFO  [main] BasePage 1104 - PASS : Entered text as : Test@123  for Password
+09-14-2023 12:13:28 BasePage.java INFO  [main] BasePage 1104 - PASS : Clicked on : Login

@@ -6,7 +6,7 @@ import io.cucumber.junit.CucumberOptions;
 
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/test/java/Features", glue = {"crm.StepDef"}, tags = "@tag", plugin = {
+@CucumberOptions(features = "src/test/java/Features", glue = {"crm.StepDef"}, tags = "@loginbutton", plugin = {
 		"pretty", "html:test-output", "json:target/cucumber.json",
 		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" }, dryRun = false, monochrome = true, strict = true)
 public class Runner {

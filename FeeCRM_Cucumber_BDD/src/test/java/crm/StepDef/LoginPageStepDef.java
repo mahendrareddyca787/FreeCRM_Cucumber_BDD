@@ -31,7 +31,7 @@ public class LoginPageStepDef {
 	}
 	@And("I click on login button")
 	public void i_click_on_login_button() {
-		
+		loginpage.clickOnLoginButton();
 	}
 	
 

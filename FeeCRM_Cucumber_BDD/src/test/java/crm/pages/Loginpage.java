@@ -33,7 +33,7 @@ public class Loginpage extends CommonPage {
 	// Actions
 	
 	public void navigateToCRM(String string) throws InterruptedException {
-		basepage.navigateToSalesforceURL();
+		basepage.navigateToCRMURL();
 	}
 
 	public String validaingPageTitle() {
@@ -48,9 +48,12 @@ public class Loginpage extends CommonPage {
 
 	public void Login(String uname, String pwd) {
 
-		txt_username.sendKeys(uname);
-		txt_password.sendKeys(pwd);
+		//txt_username.sendKeys(uname);
+		//txt_password.sendKeys(pwd);
 		//btn_login.click();
+		
+		writeText(txt_username, uname, "Username");
+		writeText(txt_password, pwd, "Password");
 	
 	}
 	
