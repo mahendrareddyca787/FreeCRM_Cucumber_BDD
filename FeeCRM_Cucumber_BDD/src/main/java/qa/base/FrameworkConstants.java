@@ -4,7 +4,7 @@ public interface FrameworkConstants {
 
 	String projectPath = System.getProperty("user.dir");
 
-	public static String sandbox = System.getProperty("baseEnv", "Test"); // DEV1 //SKSFULL1 //DEV2 //STAGING
+	public static String sandbox = System.getProperty("baseEnv", "Ohrm"); // DEV1 //SKSFULL1 //DEV2 //STAGING
 																				// //SKSFULL2 //ONECRMQA //ONECRMUAT
 
 	public static final String Browser = System.getProperty("browser", "chrome"); // chrome firefox internetExplorer
@@ -12,7 +12,7 @@ public interface FrameworkConstants {
 
 	public static final String TimeOut = "40";
 
-	public static final String URL = "https://classic.crmpro.com/index.html";
+	public static final String URL = "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
 
 	public static final String SettingsURL = "lightning/setup/SetupOneHome/home";
 

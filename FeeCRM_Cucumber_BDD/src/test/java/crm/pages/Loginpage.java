@@ -30,9 +30,18 @@ public class Loginpage extends CommonPage {
 	}
 
 	// Actions
+	
+	public void navigateToOhrm() {
+		try {
+			basepage.navigateToCRMURL();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
 
 	public void navigateToCRM(String string) throws InterruptedException {
-		basepage.navigateToCRMURL();
+		basepage.navigateToOHRMURL();
 	}
 
 	public String validaingPageTitle() {

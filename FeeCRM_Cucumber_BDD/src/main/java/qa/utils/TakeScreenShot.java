@@ -28,7 +28,8 @@ public class TakeScreenShot {
 	}
 
 	public static String takeScreenShot(WebDriver driver) throws IOException {
-
+		
+		
 		File src = (((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE));
 		String destination = System.getProperty("user.dir") + "\\Report\\Screenshot\\" + System.currentTimeMillis()
 				+ ".png";
@@ -47,6 +48,17 @@ public class TakeScreenShot {
 
 		return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
 
+	}
+	
+	public void screenshot1(WebDriver driver) {
+	
+		TakesScreenshot scrShot =((TakesScreenshot)driver);
+		
+		scrShot.getScreenshotAs(OutputType.FILE);
+		
+		
+		File DestFile=new File("path");
+		
 	}
 
 }

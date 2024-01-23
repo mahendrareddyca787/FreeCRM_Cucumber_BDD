@@ -6,3 +6,6 @@ Feature: Test CRM Login Page Functionality
     Given I launch CRM application and login with "Admin" user
     When I enter username and password
     And I click on login button
+    Then Verify homePage
+
+

@@ -1,0 +1,7 @@
+11-16-2023 13:00:58 BasePage.java INFO  [main] BasePage 1119 - PASS : AutomationConstants.sandbox :Ohrm
+11-16-2023 13:00:59 BasePage.java INFO  [main] BasePage 1119 - PASS : Launch the URL : https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+11-16-2023 13:01:04 BasePage.java INFO  [main] BasePage 1119 - PASS : Entered text as : Admin  for Username
+11-16-2023 13:01:05 BasePage.java INFO  [main] BasePage 1119 - PASS : Entered text as : admin123  for Password
+11-16-2023 13:01:08 BasePage.java INFO  [main] BasePage 1119 - PASS : Clicked on : Login
+11-16-2023 13:01:11 BasePage.java INFO  [main] BasePage 1119 - PASS : Got the text from the Element: Dashboard
+11-16-2023 13:01:11 BasePage.java INFO  [main] BasePage 1119 - PASS : Verified Actual text : Dashboard is matching with Expected text : Dashboard  for DashBoard Page
