@@ -7,10 +7,9 @@ import org.openqa.selenium.support.PageFactory;
 
 import qa.base.BasePage;
 
-
 public class Loginpage extends CommonPage {
-	
-	BasePage basepage=new BasePage(driver);
+
+	BasePage basepage = new BasePage(driver);
 
 	// Page Factory
 	@FindBy(name = "username")
@@ -29,15 +28,23 @@ public class Loginpage extends CommonPage {
 		super(driver);
 		PageFactory.initElements(driver, this);
 	}
-	
+
 	// Actions
 	
+	public void navigateToOhrm() {
+		try {
+			basepage.navigateToCRMURL();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
 	public void navigateToCRM(String string) throws InterruptedException {
-		basepage.navigateToCRMURL();
+		basepage.navigateToOHRMURL();
 	}
 
 	public String validaingPageTitle() {
-
 		return driver.getTitle();
 	}
 
@@ -48,15 +55,15 @@ public class Loginpage extends CommonPage {
 
 	public void Login(String uname, String pwd) {
 
-		//txt_username.sendKeys(uname);
-		//txt_password.sendKeys(pwd);
-		//btn_login.click();
-		
+		// txt_username.sendKeys(uname);
+		// txt_password.sendKeys(pwd);
+		// btn_login.click();
+
 		writeText(txt_username, uname, "Username");
 		writeText(txt_password, pwd, "Password");
-	
+
 	}
-	
+
 	public void clickOnLoginButton() {
 		click("Login", btn_login);
 	}

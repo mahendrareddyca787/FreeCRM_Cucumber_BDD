@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Environments xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="config.xsd">
-	<Environment name="Test">
-		<Parameter key="salesforceUrl" value="https://classic.crmpro.com/index.html" />
+	<Environment name="Ohrm">
+		<Parameter key="salesforceUrl" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" />
 		<Parameter key="Admin" value="Admin" />
 		<Parameter key="AdminUsername" value="Mahendrareddy" />
 		<Parameter key="AdminPassword" value="Test@123" />
