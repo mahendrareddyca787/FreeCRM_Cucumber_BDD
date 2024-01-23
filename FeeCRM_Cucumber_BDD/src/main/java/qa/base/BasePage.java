@@ -372,7 +372,7 @@ public class BasePage {
 		}
 
 	}
-	
+
 	public void backSpaceClear(WebElement element) {
 		int lenght = element.getText().length();
 		while (lenght > 0) {
@@ -842,7 +842,17 @@ public class BasePage {
 		printLog("Opens the supplied URL");
 	}
 
-	public void navigateToSalesforceURL() throws InterruptedException {
+	public void navigateToCRMURL() throws InterruptedException {
+		try {
+			printLog("AutomationConstants.sandbox :" + FrameworkConstants.sandbox);
+			driver.get(getURL());
+			printLog("Launch the URL : " + getURL());
+		} catch (Exception e) {
+			fail("FAIL: Failed to Launch URL ", e);
+		}
+	}
+
+	public void navigateToOHRMURL() throws InterruptedException {
 		try {
 			printLog("AutomationConstants.sandbox :" + FrameworkConstants.sandbox);
 			driver.get(getURL());
@@ -887,6 +897,10 @@ public class BasePage {
 		case "sksfull3":
 			url = EnvironmentFactory.getConfigValue("salesforceUrl");
 			break;
+		case "Ohrm":
+			url = EnvironmentFactory.getConfigValue("salesforceUrl");
+			break;
+
 		default:
 			url = FrameworkConstants.URL;
 			break;
@@ -1230,5 +1244,17 @@ public class BasePage {
 				entry.setValue(nullReplacement);
 			}
 		}
+	}
+
+	public WebElement getElementByspantext(String lnkText) {
+		return driver.findElement(By.xpath("//span[text()='" + lnkText + "']"));
+	}
+
+	public WebElement getElementByLinktext(String lnkText) {
+		return driver.findElement(By.xpath("//a[text()='" + lnkText + "']"));
+	}
+
+	public WebElement getElementByName(String name) {
+		return driver.findElement(By.xpath("//input[text()='" + name + "']"));
 	}
 }

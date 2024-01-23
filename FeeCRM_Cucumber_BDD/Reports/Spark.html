@@ -56,7 +56,7 @@
           </li>
             <li class="m-r-10">
                 <a href="#">
-                    <span class="badge badge-primary">Sep 13, 2023 02:42:33 AM</span>
+                    <span class="badge badge-primary">Nov 16, 2023 01:00:29 PM</span>
                 </a>
             </li>
         </ul>
@@ -123,7 +123,7 @@
 					<i class="fa fa-tag"></i>
 					</a>
 					<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
-						<a class="dropdown-item" href="#">@tag</a>
+						<a class="dropdown-item" href="#">@ohrmlogin</a>
 					</ul>
 				</li>
 			</ul>
@@ -132,29 +132,26 @@
 			<ul class="test-list-item">
 				<li class="test-item"  status="pass" test-id="1"
 					author=""
-					tag="@tag"
+					tag=""
 					device="">
 					<div class="status-avatar pass-bg">
 						<i class="fa fa-check text-white"></i>
 					</div>
 					<div class="open-test">
 						<div class="test-detail">
-							<p class="name">Test CRM Login Page Functionality</p>
-							<p class="duration text-sm">0h 0m 11s+968ms</p>
-							<span class="datetime">02:43:00 AM</span>
+							<p class="name">Tho test the OHRM Login page functionality</p>
+							<p class="duration text-sm">0h 0m 13s+333ms</p>
+							<span class="datetime">13:00:58 PM</span>
 						</div>
 					</div>
 					<div class="test-contents d-none">
 						<div class="detail-head">
 							<div class="p-v-10 d-inline-block">
 								<div class="info">
-									<h5 class="test-status text-pass">Test CRM Login Page Functionality</h5>
-									<span class='badge badge-success'>09.13.2023 02:43:00</span>
-									<span class='badge badge-danger'>09.13.2023 02:43:12</span>
-									<span class='badge badge-default'>0h 0m 11s+968ms</span>
-								</div>
-								<div class="m-t-15">
-			<span class="badge badge-pill badge-default"><i class="fa fa-tag"></i> @tag</span>
+									<h5 class="test-status text-pass">Tho test the OHRM Login page functionality</h5>
+									<span class='badge badge-success'>11.16.2023 13:00:58</span>
+									<span class='badge badge-danger'>11.16.2023 13:01:11</span>
+									<span class='badge badge-default'>0h 0m 13s+333ms</span>
 								</div>
 								<div class="m-t-10 m-l-5">
 									
@@ -166,7 +163,7 @@
 	<div class="card">
 		<div class="card-header" role="tab">
 			<div class="card-title pl-3">
-				<div class="node">CRM Loginpage functionality with valid credetials</div>
+				<div class="node">Verify Login button functionality</div>
 				<div class="status-avatar float-left pass-bg">
 					<i class="fa fa-check text-white"></i>
 				</div>
@@ -177,35 +174,44 @@
 		</div>
 				<div class="collapse">
 					<div class="card-body">
-							<div class="d-flex align-items-center justify-content-start given" title="crm.StepDef.LoginPageStepDef.i_launch_crm_application(java.lang.String)">
+							<div class="d-flex align-items-center justify-content-start given" title="crm.StepDef.OhrmLoginPageSteDef.i_lunch_ohrm_application()">
 								<span class="alert-icon pass-bg">
 									<i class="fa fa-check text-white"></i>
 								</span>
-								<span>Given I launch CRM application and login with "Admin" user</span>
+								<span>Given I launch Ohrm application</span>
 							</div>
-				<div class="details">13-09-2023-02-43-00 : AutomationConstants.sandbox :Test</div>
-				<div class="details">13-09-2023-02-43-09 : Launch the URL : https://classic.crmpro.com/index.html</div>
-							<div class="d-flex align-items-center justify-content-start when" title="crm.StepDef.LoginPageStepDef.enter_username_password()">
+				<div class="details">16-11-2023-01-00-58 : AutomationConstants.sandbox :Ohrm</div>
+				<div class="details">16-11-2023-01-00-59 : Launch the URL : https://opensource-demo.orangehrmlive.com/web/index.php/auth/login</div>
+							<div class="d-flex align-items-center justify-content-start when" title="crm.StepDef.OhrmLoginPageSteDef.i_enter_username_and_password(java.lang.String,java.lang.String)">
 								<span class="alert-icon pass-bg">
 									<i class="fa fa-check text-white"></i>
 								</span>
-								<span>When I enter username and password</span>
+								<span>When I enter username as "Admin" and password as "admin123" for Ohrm login</span>
 							</div>
-				<div class="details"></div>
-							<div class="d-flex align-items-center justify-content-start and" title="crm.StepDef.LoginPageStepDef.i_click_on_login_button()">
+				<div class="details">16-11-2023-01-01-04 : Entered text as : Admin  for Username</div>
+				<div class="details">16-11-2023-01-01-05 : Entered text as : admin123  for Password</div>
+							<div class="d-flex align-items-center justify-content-start and" title="crm.StepDef.OhrmLoginPageSteDef.i_click_on_button()">
 								<span class="alert-icon pass-bg">
 									<i class="fa fa-check text-white"></i>
 								</span>
-								<span>And I click on login button</span>
+								<span>And I click on Login button</span>
 							</div>
-				<div class="details"></div>
+				<div class="details">16-11-2023-01-01-08 : Clicked on : Login</div>
+							<div class="d-flex align-items-center justify-content-start then" title="crm.StepDef.OhrmLoginPageSteDef.i_verify_dashboard_page(java.lang.String)">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Then I verify "Dashboard" page is displayed</span>
+							</div>
+				<div class="details">16-11-2023-01-01-11 : Got the text from the Element: Dashboard</div>
+				<div class="details">16-11-2023-01-01-11 : Verified Actual text : Dashboard is matching with Expected text : Dashboard  for DashBoard Page</div>
 							<div class="d-flex align-items-center justify-content-start asterisk" title="">
 								<span class="alert-icon pass-bg">
 									<i class="fa fa-check text-white"></i>
 								</span>
 								<span>crm.StepDef.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 							</div>
-				<div class="details">CRM Loginpage functionality with valid credetials : Passed</div>
+				<div class="details">Verify Login button functionality : Passed</div>
 				<div class="details"></div>
 				<div class="details"><img class='r-img' onerror='this.style.display="none"' data-featherlight='test-output/embedded1.png' src='test-output/embedded1.png'></div>
 					</div>
@@ -254,8 +260,8 @@
 				<li class="test-item">
 					<div class="open-test">
 						<div class="test-detail">
-							<p class="name">@tag</p>
-							<p class="duration text-sm">2 tests</p>
+							<p class="name">@ohrmlogin</p>
+							<p class="duration text-sm">1 tests</p>
 							<span class="datetime">
 							<span class='badge badge-success'>1</span>
 							
@@ -266,7 +272,7 @@
 					</div>
 					<div class="test-contents d-none">
 						<div class="info">
-							<h4>@tag</h4>
+							<h4>@ohrmlogin</h4>
 							<span status="pass" class='badge badge-success'>1 passed</span>
 							
 							
@@ -287,22 +293,11 @@
 											<i class="fa fa-check text-white"></i>
 										</div>
 									</td>
-									<td>02:43:00 AM</td>
-									<td class='linked' test-id='1'>
-										Test CRM Login Page Functionality
-									</td>
-								</tr>
-								<tr class="tag-test-status" status="pass">
-									<td>
-										<div class='status-avatar pass-bg'>
-											<i class="fa fa-check text-white"></i>
-										</div>
-									</td>
-									<td>02:43:00 AM</td>
+									<td>13:00:58 PM</td>
 									<td class='linked' test-id='2'>
-										CRM Loginpage functionality with valid credetials
+										Verify Login button functionality
 										<div class="">
-											<span class="badge badge-default">Test CRM Login Page Functionality.CRM Loginpage functionality with valid credetials</span>
+											<span class="badge badge-default">Tho test the OHRM Login page functionality.Verify Login button functionality</span>
 										</div>
 									</td>
 								</tr>
@@ -384,7 +379,7 @@
 					</div>
 				</div>
 				<div class="card-footer">
-					<div><small data-tooltip='100%'><b>4</b> steps passed</small></div>
+					<div><small data-tooltip='100%'><b>5</b> steps passed</small></div>
 					<div>
 						<small data-tooltip='0%'><b>0</b> steps failed, 
 						<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
@@ -439,7 +434,7 @@
 					<div class="media justify-content-between">
 						<div class="card-header">
 							<h6 class="card-title">Start</h6>
-							<h4 class="font-weight-light mt-4">Sep 13, 2023 02:42:33 AM</h4>
+							<h4 class="font-weight-light mt-4">Nov 16, 2023 01:00:29 PM</h4>
 							<span class="text-semibold text-success font-size-15">
 						</div>
 						<div class="align-self-end">
@@ -455,7 +450,7 @@
 					<div class="media justify-content-between">
 						<div class="card-header">
 							<h6 class="card-title">Duration</h6>
-							<h4 class="font-weight-light mt-4">0h 0m 39s+335ms</h4>
+							<h4 class="font-weight-light mt-4">0h 0m 44s+125ms</h4>
 							<span class="text-semibold font-size-15">
 						</div>
 						<div class="align-self-end">
@@ -499,12 +494,12 @@
 						</thead>
 						<tbody>
 							<tr>
-								<td>@tag</td>
+								<td>@ohrmlogin</td>
 								<td>1</td>
 								<td>0</td>
 								<td>0</td>
 								<td>
-									50%
+									100%
 								</td>
 							</tr>
 						</tbody>
@@ -534,8 +529,8 @@
 		infoChild: 0,
 		debugChild: 0,
 		exceptionsChild: 0,
-		grandChildCount: 4,
-		passGrandChild: 4,
+		grandChildCount: 5,
+		passGrandChild: 5,
 		failGrandChild: 0,
 		fatalGrandChild: 0,
 		errorGrandChild: 0,
@@ -544,21 +539,21 @@
 		infoGrandChild: 0,
 		debugGrandChild: 0,
 		exceptionsGrandChild: 0,
-		eventsCount: 6,
-		passEvents: 2,
+		eventsCount: 9,
+		passEvents: 0,
 		failEvents: 0,
 		fatalEvents: 0,
 		errorEvents: 0,
 		warningEvents: 0,
 		skipEvents: 0,
-		infoEvents: 4,
+		infoEvents: 9,
 		debugEvents: 0,
 		exceptionsEvents: 0
 	};
 </script>
 <script>
 	var timeline = {
-	        "Test CRM Login Page Functionality":11.968
+	        "Tho test the OHRM Login page functionality":13.333
 	};
 </script>
                 </div>

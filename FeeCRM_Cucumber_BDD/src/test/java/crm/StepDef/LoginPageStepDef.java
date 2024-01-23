@@ -6,6 +6,7 @@ import crm.pages.CommonPage;
 import crm.pages.Loginpage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class LoginPageStepDef {
@@ -21,9 +22,9 @@ public class LoginPageStepDef {
 	}
 	
 	@Given("I launch CRM application and login with {string} user")
-	public void i_launch_crm_application(String string) throws InterruptedException {
+	public void i_launch_crm_application(String user) throws InterruptedException {
 		
-		loginpage.navigateToCRM(string);
+		loginpage.navigateToCRM(user);
 	}
 	@When("I enter username and password")
 	public void enter_username_password(){
@@ -31,6 +32,11 @@ public class LoginPageStepDef {
 	}
 	@And("I click on login button")
 	public void i_click_on_login_button() {
+		loginpage.clickOnLoginButton();
+	}
+	
+	@Then("Verify homePage")
+	public void verify_homepage() {
 		
 	}
 	
