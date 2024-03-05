@@ -1231,4 +1231,8 @@ public class BasePage {
 			}
 		}
 	}
+	
+	public void test() {
+		
+	}
 }
